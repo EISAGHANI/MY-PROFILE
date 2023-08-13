@@ -29,7 +29,7 @@ const imgAPI = {
     'https://via.placeholder.com/640x425/c4cdff/757575',
   ],
   femine: [
-    'https://via.placeholder.com/352x352/d63981/FFFFFF',
+    '/images/avatars/PRoPIc.jpg',
     'https://via.placeholder.com/1300x500/e67833/FFFFFF',
     'https://via.placeholder.com/1300x500/222f38/FFFFFF',
     'https://via.placeholder.com/1300x500/191b1f/FFFFFF',
