@@ -12,29 +12,29 @@ import useStyle from './services-style';
 
 const services = [
   {
-    icon: 'ion-ios-color-wand',
-    name: 'User Interface Design',
-    desc: 'Pellentesque ac  vel blandit nulla.'
-  },
-  {
-    icon: 'ion-logo-dribbble',
-    name: 'Icon Design',
-    desc: 'Pellentesque ac  vel blandit nulla.'
-  },
-  {
     icon: 'ion-ios-globe',
-    name: 'HTML Prototyping',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    name: 'Web  Development',
+    desc: 'Develope professional web applications.'
   },
   {
-    icon: 'ion-ios-camera',
-    name: 'Photo Editing',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    icon: 'ion-logo-windows',
+    name: 'Software  Development',
+    desc: 'Develope professional softwares.'
   },
   {
-    icon: 'ion-ios-snow',
-    name: 'Graphic Illustrations',
-    desc: 'Pellentesque ac  vel blandit nulla.'
+    icon: 'ion-logo-buffer',
+    name: 'Database  Management',
+    desc: 'Manage your database with us.'
+  },
+  {
+    icon: 'ion-ios-chatbubbles',
+    name: 'Mobile  App  Development',
+    desc: 'Develope mobile apps of your own choice.'
+  },
+  {
+    icon: 'ion-ios-construct',
+    name: 'Search  Engine  Optimization',
+    desc: 'Optimize your product for marketing.'
   }
 ];
 

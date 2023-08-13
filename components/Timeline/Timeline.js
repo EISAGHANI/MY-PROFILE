@@ -54,9 +54,9 @@ function Timeline() {
                       duration={0.3}
                     >
                       <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Creative Director</Typography>
-                        <Typography gutterBottom>at Fourth Company</Typography>
-                        <Typography className={classes.time}>2015 - Present</Typography>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Software Developer</Typography>
+                        <Typography gutterBottom>at Upwork</Typography>
+                        <Typography className={classes.time}>2019 - Present</Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -69,9 +69,9 @@ function Timeline() {
                       duration={0.3}
                     >
                       <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Senior UI/UX Designer</Typography>
-                        <Typography gutterBottom>at Third Company</Typography>
-                        <Typography className={classes.time}>2013 - 2015</Typography>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Web Developer</Typography>
+                        <Typography gutterBottom>at ButFirstMe</Typography>
+                        <Typography className={classes.time}>2023 - Recent</Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -84,9 +84,9 @@ function Timeline() {
                       duration={0.3}
                     >
                       <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>UI/UX Designer</Typography>
-                        <Typography gutterBottom>at Second Company</Typography>
-                        <Typography className={classes.time}>2012 - 2013</Typography>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Web Developer</Typography>
+                        <Typography gutterBottom>at UIV Shop</Typography>
+                        <Typography className={classes.time}>2022 - 2022</Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -99,9 +99,9 @@ function Timeline() {
                       duration={0.3}
                     >
                       <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>UI/UX Designer</Typography>
-                        <Typography gutterBottom>at First Company</Typography>
-                        <Typography className={classes.time}>2009 - 2011</Typography>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Chief Technology Officer</Typography>
+                        <Typography gutterBottom>at Traboon Travels</Typography>
+                        <Typography className={classes.time}>2019 - 2022</Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -123,8 +123,8 @@ function Timeline() {
                   <ul>
                     <li>
                       <div className={classes.textIcon}>
-                        <i className="ion-ios-color-wand" />
-                        <Typography variant="h6" className={text.subtitle2}>User Interface Design</Typography>
+                        <i className="ion-ios-globe" />
+                        <Typography variant="h6" className={text.subtitle2}>Web  Development</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
@@ -137,8 +137,8 @@ function Timeline() {
                     </li>
                     <li>
                       <div className={classes.textIcon}>
-                        <i className="ion-logo-dribbble" />
-                        <Typography variant="h6" className={text.subtitle2}>Icon Design</Typography>
+                        <i className="ion-logo-windows" />
+                        <Typography variant="h6" className={text.subtitle2}>Software  Development</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
@@ -151,8 +151,8 @@ function Timeline() {
                     </li>
                     <li>
                       <div className={classes.textIcon}>
-                        <i className="ion-ios-globe" />
-                        <Typography variant="h6" className={text.subtitle2}>HTML Prototyping</Typography>
+                        <i className="ion-logo-buffer" />
+                        <Typography variant="h6" className={text.subtitle2}>Database  Management</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
@@ -165,8 +165,8 @@ function Timeline() {
                     </li>
                     <li>
                       <div className={classes.textIcon}>
-                        <i className="ion-ios-camera" />
-                        <Typography variant="h6" className={text.subtitle2}>Photo Editing</Typography>
+                        <i className="ion-ios-chatbubbles" />
+                        <Typography variant="h6" className={text.subtitle2}>Mobile  App  Development</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
@@ -179,8 +179,8 @@ function Timeline() {
                     </li>
                     <li>
                       <div className={classes.textIcon}>
-                        <i className="ion-ios-snow" />
-                        <Typography variant="h6" className={text.subtitle2}>Graphic Illustrations</Typography>
+                        <i className="ion-ios-construct" />
+                        <Typography variant="h6" className={text.subtitle2}>Search  Engine  Optimization</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
