@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from 'react';
 import PropTypes from 'prop-types';
 import Grid from '@mui/material/Grid';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import useMediaQuery from '@mui/material/useMediaQuery';
@@ -30,6 +30,10 @@ function BannerNav(props) {
     onToggleDark,
     onToggleDir,
   } = props;
+
+  const handleSocialMediaClick = (link) => {
+    window.open(link, '_blank');
+  };
 
   return (
     <div className={classes.root}>
@@ -74,17 +78,17 @@ function BannerNav(props) {
                     {t('femine-landing.banner_desc')}
                   </Typography>
                   <div className={classes.socmed}>
-                    <Button variant="outlined" className={classes.download} component="a">Download CV</Button>
-                    <IconButton aria-label="Delete" className={classes.margin} size="small">
+                    {/* <Button variant="outlined" className={classes.download} component="a">Download CV</Button> */}
+                    <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://www.facebook.com/eisabacha/')}>
                       <i className="ion-logo-facebook" />
                     </IconButton>
-                    <IconButton aria-label="Delete" className={classes.margin} size="small">
+                    <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://www.instagram.com/eisaghani/')}>
                       <i className="ion-logo-twitter" />
                     </IconButton>
-                    <IconButton aria-label="Delete" className={classes.margin} size="small">
+                    <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://twitter.com/EISABACHA')}>
                       <i className="ion-logo-instagram" />
                     </IconButton>
-                    <IconButton aria-label="Delete" className={classes.margin} size="small">
+                    <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://www.linkedin.com/in/eisabacha/')}>
                       <i className="ion-logo-linkedin" />
                     </IconButton>
                   </div>

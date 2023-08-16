@@ -94,6 +94,10 @@ function Header(props) {
     body[0].style.overflow = 'auto';
   };
 
+  const handleSocialMediaClick = (link) => {
+    window.open(link, '_blank');
+  };
+
   return (
     <Fragment>
       <AppBar
@@ -182,18 +186,18 @@ function Header(props) {
                         {brand.femine.title}
                       </Typography>
                     </div>
-                    <Button variant="outlined" color="primary" className={classes.download} component="a">Download CV</Button>
+                    {/* <Button variant="outlined" color="primary" className={classes.download} component="a">Download CV</Button> */}
                     <div className={classes.socmed}>
-                      <IconButton aria-label="Delete" className={classes.margin} size="small">
+                      <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://www.facebook.com/eisabacha/')}>
                         <i className={cx('ion-logo-facebook', classes.fb)} />
                       </IconButton>
-                      <IconButton aria-label="Delete" className={classes.margin} size="small">
+                      <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://www.instagram.com/eisaghani/')}>
                         <i className={cx('ion-logo-instagram', classes.ig)} />
                       </IconButton>
-                      <IconButton aria-label="Delete" className={classes.margin} size="small">
+                      <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://twitter.com/EISABACHA')}>
                         <i className={cx('ion-logo-twitter', classes.tw)} />
                       </IconButton>
-                      <IconButton aria-label="Delete" className={classes.margin} size="small">
+                      <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://www.linkedin.com/in/eisabacha/')}>
                         <i className={cx('ion-logo-linkedin', classes.in)} />
                       </IconButton>
                     </div>

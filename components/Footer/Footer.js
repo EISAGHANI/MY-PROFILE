@@ -1,7 +1,7 @@
 import React from 'react';
 import ScrollAnimation from 'react-scroll-animation-wrapper';
 import Container from '@mui/material/Container';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { useTheme } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
@@ -22,6 +22,10 @@ function Footer() {
 
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down('md'));
+
+  const handleSocialMediaClick = (link) => {
+    window.open(link, '_blank');
+  };
 
   return (
     <div className={classes.root}>
@@ -46,20 +50,20 @@ function Footer() {
                   </Typography>
                 </div>
                 <div className={classes.socmed}>
-                  <IconButton aria-label="Delete" className={classes.margin} size="small">
+                  <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://www.facebook.com/eisabacha/')}>
                     <i className={cx('ion-logo-facebook', classes.fb)} />
                   </IconButton>
-                  <IconButton aria-label="Delete" className={classes.margin} size="small">
+                  <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://www.instagram.com/eisaghani/')}>
                     <i className={cx('ion-logo-instagram', classes.ig)} />
                   </IconButton>
-                  <IconButton aria-label="Delete" className={classes.margin} size="small">
+                  <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://twitter.com/EISABACHA')}>
                     <i className={cx('ion-logo-twitter', classes.tw)} />
                   </IconButton>
-                  <IconButton aria-label="Delete" className={classes.margin} size="small">
+                  <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://www.linkedin.com/in/eisabacha/')}>
                     <i className={cx('ion-logo-linkedin', classes.in)} />
                   </IconButton>
                 </div>
-                <Button variant="outlined" color="primary" className={classes.download} component="a">Download CV</Button>
+                {/* <Button variant="outlined" color="primary" className={classes.download} component="a">Download CV</Button> */}
                 <div className={classes.contact}>
                   <Typography className={text.paragraph}>
                     {t('femine-landing.footer_contact')}
