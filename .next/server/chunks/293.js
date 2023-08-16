@@ -1,0 +1,66 @@
+exports.id = 293;
+exports.ids = [293];
+exports.modules = {
+
+/***/ 2207:
+/***/ ((module) => {
+
+module.exports = {
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'de'],
+    fallbackLng: 'en'
+  },
+  ssg: true // Set to true for Static Site Generation (SSG)
+
+};
+
+/***/ }),
+
+/***/ 4882:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+const imgAPI = {
+  avatar: ['/images/avatars/pp_girl.svg', '/images/avatars/pp_girl2.svg', '/images/avatars/pp_girl3.svg', '/images/avatars/pp_girl4.svg', '/images/avatars/pp_girl5.svg', '/images/avatars/pp_girl.svg', '/images/avatars/pp_boy.svg', '/images/avatars/pp_boy2.svg', '/images/avatars/pp_boy3.svg', '/images/avatars/pp_boy4.svg', '/images/avatars/pp_boy5.svg'],
+  photo: ['https://via.placeholder.com/675x900/e1ad92/ffffff', 'https://via.placeholder.com/967x725/ea6d6d/ffffff', 'https://via.placeholder.com/1280x849/ea6db7/ffffff', 'https://via.placeholder.com/967x725/bb6dea/ffffff', 'https://via.placeholder.com/1048x701/6d6fea/ffffff', 'https://via.placeholder.com/1050x700/6dc0ea/ffffff', 'https://via.placeholder.com/970x725/6deaa6/ffffff', 'https://via.placeholder.com/1051x700/b8de27/ffffff', 'https://via.placeholder.com/1051x701/de9f27/ffffff', 'https://via.placeholder.com/1050x700/ef4545/ffffff', 'https://via.placeholder.com/1050x700/ffc4c4/757575', 'https://via.placeholder.com/640x447/fdffc4/757575', 'https://via.placeholder.com/1280x851/c4ffd7/757575', 'https://via.placeholder.com/640x425/c4cdff/757575'],
+  femine: ['/images/avatars/PRoPIc.jpg', 'https://via.placeholder.com/1300x500/e67833/FFFFFF', 'https://via.placeholder.com/1300x500/222f38/FFFFFF', 'https://via.placeholder.com/1300x500/191b1f/FFFFFF', 'https://via.placeholder.com/1300x500/330c34/FFFFFF', 'https://via.placeholder.com/1300x500/25340a/FFFFFF', 'https://via.placeholder.com/640x440/4112c1/FFFFFF', 'https://via.placeholder.com/640x800/0e9095/FFFFFF', 'https://via.placeholder.com/640x400/db1653/FFFFFF', 'https://via.placeholder.com/640x959/cc16db/FFFFFF', 'https://via.placeholder.com/640x405/5216db/FFFFFF', 'https://via.placeholder.com/640x360/049b67/FFFFFF', 'https://via.placeholder.com/640x400/db4b16/FFFFFF', 'https://via.placeholder.com/640x960/143277/FFFFFF', 'https://via.placeholder.com/640x427/00a526/FFFFFF']
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (imgAPI);
+
+/***/ }),
+
+/***/ 15:
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _images_imgAPI__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4882);
+
+const brand = {
+  femine: {
+    name: 'Mohammad Eisa',
+    title: 'Software Engineer',
+    desc: 'Personal Profile - This is my personal website',
+    prefix: 'Eisa',
+    footerText: 'Eisa Theme 2023',
+    logoText: 'Eisa Profile',
+    projectName: 'Profile',
+    url: 'Iluxi.ux-maestro.com/profile',
+    img: '/images/femine-logo.png',
+    avatar: _images_imgAPI__WEBPACK_IMPORTED_MODULE_0__/* ["default"].femine[0] */ .Z.femine[0],
+    cover: _images_imgAPI__WEBPACK_IMPORTED_MODULE_0__/* ["default"].femine[1] */ .Z.femine[1],
+    notifMsg: 'Donec sit amet nulla sed arcu pulvinar ultricies commodo id ligula.'
+  }
+};
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (brand);
+
+/***/ })
+
+};
+;

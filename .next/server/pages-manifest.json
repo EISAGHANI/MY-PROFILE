@@ -1,7 +1,11 @@
 {
-  "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
+  "/_app": "pages/_app.js",
   "/": "pages/index.js",
-  "/[locale]": "pages/[locale].js"
+  "/404": "pages/404.js",
+  "/_document": "pages/_document.js",
+  "/blank-page": "pages/blank-page.js",
+  "/[locale]": "pages/[locale].js",
+  "/[locale]/404": "pages/[locale]/404.js",
+  "/[locale]/blank-page": "pages/[locale]/blank-page.js"
 }
