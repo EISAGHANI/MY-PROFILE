@@ -82,10 +82,10 @@ function BannerNav(props) {
                     <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://www.facebook.com/eisabacha/')}>
                       <i className="ion-logo-facebook" />
                     </IconButton>
-                    <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://www.instagram.com/eisaghani/')}>
+                    <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://www.twitter.com/eisabacha/')}>
                       <i className="ion-logo-twitter" />
                     </IconButton>
-                    <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://twitter.com/EISABACHA')}>
+                    <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://instagram.com/eisaghani/')}>
                       <i className="ion-logo-instagram" />
                     </IconButton>
                     <IconButton aria-label="Delete" className={classes.margin} size="small" onClick={() => handleSocialMediaClick('https://www.linkedin.com/in/eisabacha/')}>
