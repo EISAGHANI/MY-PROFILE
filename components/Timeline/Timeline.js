@@ -50,13 +50,28 @@ function Timeline() {
                     <ScrollAnimation
                       animateOnce
                       animateIn="fadeInLeftShort"
+                      offset={200}
+                      delay={400}
+                      duration={0.3}
+                    >
+                      <div>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Team Lead Software</Typography>
+                        <Typography gutterBottom>at Mediverbund</Typography>
+                        <Typography className={classes.time}>Aug 2024 - Recent</Typography>
+                      </div>
+                    </ScrollAnimation>
+                  </li>
+                  <li>
+                    <ScrollAnimation
+                      animateOnce
+                      animateIn="fadeInLeftShort"
                       delay={200}
                       duration={0.3}
                     >
                       <div>
                         <Typography variant="h3" gutterBottom className={text.subtitle2}>Software Developer</Typography>
                         <Typography gutterBottom>at Kistler</Typography>
-                        <Typography className={classes.time}>2024 - Present</Typography>
+                        <Typography className={classes.time}>Jan 2024 - July 2024</Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -69,24 +84,9 @@ function Timeline() {
                       duration={0.3}
                     >
                       <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Web Developer</Typography>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Software Developer</Typography>
                         <Typography gutterBottom>at ButFirstMe</Typography>
-                        <Typography className={classes.time}>2023 - Recent</Typography>
-                      </div>
-                    </ScrollAnimation>
-                  </li>
-                  <li>
-                    <ScrollAnimation
-                      animateOnce
-                      animateIn="fadeInLeftShort"
-                      offset={200}
-                      delay={400}
-                      duration={0.3}
-                    >
-                      <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Web Developer</Typography>
-                        <Typography gutterBottom>at UIV Shop</Typography>
-                        <Typography className={classes.time}>2022 - 2022</Typography>
+                        <Typography className={classes.time}>Jan 2023 - Dec 2023</Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -99,9 +99,9 @@ function Timeline() {
                       duration={0.3}
                     >
                       <div>
-                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Chief Technology Officer</Typography>
+                        <Typography variant="h3" gutterBottom className={text.subtitle2}>Software Developer</Typography>
                         <Typography gutterBottom>at Traboon Travels</Typography>
-                        <Typography className={classes.time}>2019 - 2022</Typography>
+                        <Typography className={classes.time}>Oct 2021 - Dec 2022</Typography>
                       </div>
                     </ScrollAnimation>
                   </li>
@@ -166,7 +166,7 @@ function Timeline() {
                     <li>
                       <div className={classes.textIcon}>
                         <i className="ion-ios-chatbubbles" />
-                        <Typography variant="h6" className={text.subtitle2}>Mobile  App  Development</Typography>
+                        <Typography variant="h6" className={text.subtitle2}>Full Stack  Development</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
@@ -180,7 +180,7 @@ function Timeline() {
                     <li>
                       <div className={classes.textIcon}>
                         <i className="ion-ios-construct" />
-                        <Typography variant="h6" className={text.subtitle2}>Machine Learning</Typography>
+                        <Typography variant="h6" className={text.subtitle2}>Cloud Services</Typography>
                       </div>
                       <LinearProgress
                         variant="determinate"
